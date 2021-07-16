@@ -1,7 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
+<head>
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	<meta charset='UTF-8'>
+	<title></title>
+	<meta name='ad.size' content='width=300,height=600'> 
+	<link rel='stylesheet' href='style.css'>
+	<script> var clickTag = 'https://www.google.com'; </script>
+    <script src='https://s0.2mdn.net/ads/studio/cached_libs/gsap_3.2.4_min.js'></script>
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+	<script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+	<script src="https://player.vimeo.com/api/player.js" defer></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/hammerjs/2.0.8/hammer.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+	<div id='container'>
+		<div class="logo_holder">
+			<img class="logo-img" src="logo.svg" />
+		</div>
+		<p class="top_text">Asset Management</p>
+		<div id='clickthru0'></div>
+		<div class="intro_container">
+			<div class="intro_holder">
+				<div class="intro_image"></div>
+			</div>
+			<h1 class="headline">Investing with conviction</h1>
+			<h2 class="sub_headline">Why difficult markets demand a high-conviction approach.</h2>
+			<div id='clickthru1'></div>
+			<div class="intro_cta">CLICK TO SEE MORE&nbsp;&nbsp;></div> 
+		</div>
+		<div class="end_container">
+			<div class="tab">
+				<button class="tablinks active" onclick="openCity(event, 'Tab1')">What is a high-conviction approach</button>
+				<button class="tablinks" onclick="openCity(event, 'Tab2')">How can you measure conviction?</button>
+				<button class="tablinks" onclick="openCity(event, 'Tab3')">How to invest in high-conviction managers</button>
+			</div>
+
+			<div id="Tab1" class="tabcontent">
+				<h1 class="tab1_headline">What is a high-conviction approach?</h1>
+				<h2 class="tab1_sub_headline">What is a high-conviction approach?
+				High conviction is a style of active management that is expressed through portfolio construction. <br><br>
+
+				Without deploying a consistent high-conviction approach over time, it is hard for any manager to beat the benchmark or passive fund equivalent for their target sector. Investing with conviction means sticking to your investment style through the cycle – which allows you to weather uncertainty.</h2>
+
+				<h1 class="tab1_headline_2" style="top: 273px !important;">High-conviction investing means hitting the mark</h1>
+				<h2 class="tab1_sub_headline_2" style="top: 307px !important;">Investor Round Table hosted by Citywire</h2>
+				<div id='clickthru2'></div>
+				<div class="video_holder">
+					<video id="video1" controls="controls" poster="poster.jpg" playsinline="">
+						<source type="video/mp4" src="sample_video.mp4">
+					</video>
+				</div>
+
+				<div class="end_cta">LEARN MORE</div> 
+			</div>
+
+			<div id="Tab2" class="tabcontent">
+				<h1 class="tab2_headline">How can you measure conviction?</h1>
+				<h2 class="tab2_sub_headline">High-conviction strategies share certain characteristics, such as</h2>
+				<ul class="tab2_ul">
+					<li class="tab2_li">
+						More concentrated portfolios – measured by number of holdings
+					</li>
+					<li class="tab2_li">
+						Strong understanding of, and comfort with, investments – measured by longer holding periods
+					</li>
+					<li class="tab2_li">
+						Style-consistent performance – measured by performance behavior in up- and down-markets over multiple market cycles
+					</li>
+				</ul>
+				<div class="tab2_quote">
+					"Conviction is about having confidence in our philosophy and approach – repeatedly, no matter what. Equally important is our demonstrated ability and track record of carrying it through."
+					<br><br>Matthew Benkendorf, CIO, Quality Growth Boutique
+				</div>
+				<div id='clickthru3'></div>
+				<div class="end_cta_tab2">LEARN MORE</div> 
+			</div>
+
+			<div id="Tab3" class="tabcontent">
+				<h1 class="tab3_headline">How can you measure conviction?</h1>
+				<h2 class="tab3_sub_headline">Portfolio managers develop their conviction by repeatedly applying their investment philosophy, while adapting it to the current market environment. What do investors need to observe when considering a high-conviction approach?</h2>
+				<div class="line"></div>
+				<h2 class="tab3_sub_headline_2">Bring some patience</h2>
+				<h2 class="tab3_sub_headline_2_sub">Investors with a short investment horizon and sensitivity to short-term underperformance may not be comfortable investing in high-conviction approaches. Empirical evidence suggests that long-term investors are up for a much better experience.</h2>
+
+				<div class="line2"></div>
+				<h2 class="tab3_sub_headline_3">Know your facts</h2>
+				<h2 class="tab3_sub_headline_3_sub">Many managers show selective evidence, such as a high active share, to declare themselves as high conviction. But that does not necessarily make them high-conviction managers. Does their investment philosophy and process evidence independent thinking?</h2>
+
+				<div class="line3"></div>
+				<h2 class="tab3_sub_headline_4">Ask difficult questions</h2>
+				<h2 class="tab3_sub_headline_4_sub">High-conviction managers can be wrong, so you want them to acknowledge this. It is important for a fund manager to be able to understand their faults and explain the drivers of their performance.</h2>
+				<div id='clickthru4'></div>
+			</div>
+	</div>
 </body>
 </html>

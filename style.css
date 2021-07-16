@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    position: absolute;
+    top: 130px;
+    left: -5px;
+    font-size: 12px;
+    opacity: 1;
+    font-weight: 400;
+    margin-right: 10px;
+    line-height: 17px;
+}
+.top_text{
+    position: absolute;
+    top: 39px;
+    left: 20px;
+    font-size: 15px;
+    color: #000000;
+}
+#container{
+	position: absolute;
+	width: 300px;
+	height: 600px;
+	top: 0; left: 0;
+	border: 1px solid black;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: none;
+}
+.intro_container{
+	position: absolute;
+	width: 300px;
+	height: 600px;
+	top: 0; left: 0;
+}
+.logo_holder{
+	position: absolute;
+	top: 16px; left: 15px;
+    width: 150px;
+    height: 30px;
+}
+.logo-img{
+	position: absolute;
+	width: 100%;
+}
+.intro_holder{
+	position: absolute;
+	top: 85px; left: 0px;
+	width: 300px; height: 400px;
+	overflow: hidden;
+}
+.intro_image:before {
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: rgba(0,0,0,.5);
+}
+.intro_image{
+	position: absolute;
+	top: 0; left: 0px;
+	width: 300px; height: 400px;
+	background-image: url(hero-high-conviction.jpeg);
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -263px 0px;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    opacity: 1;
+}
+.headline{
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	position: absolute;
+    top: 250px;
+    left: 15px;
+    opacity: 0;
+}
+.sub_headline{
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	position: absolute;
+    top: 350px;
+    left: 15px;
+    font-size: 15px;
+    opacity: 0;
+}
+.intro_cta{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    padding: 10px 30px 10px 30px;
+    background: #ffd400;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: 170px;
+    bottom: 39px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0;
+    display: none;
+}
+.intro_cta:hover {
+  background-color: #373a36;
+  color: white;
+}
+.end_cta:hover {
+  background-color: #373a36;
+  color: white;
+}
+.end_cta_tab2:hover {
+  background-color: #373a36;
+  color: white;
+}
+
+.end_container{
+	position: absolute;
+	width: 300px;
+    height: 549px;
+    top: 50px;
+	left: 0;
+	transform: translateX(300px);
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+	background-color: inherit;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	/* padding: 14px 16px; */
+	transition: 0.3s;
+	font-size: 11px;
+	width: 33%;
+	height: 50px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  /*background-color: #ccc;*/
+  border-bottom: 4px solid #ffd400;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  background-color: #f0ede4;
+  height: 485px;
+}
+
+/*Tab 1 content*/
+
+.tab1_headline, .tab1_headline_2{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    position: absolute;
+    top: 62px;
+    left: 15px;
+    opacity: 0;
+    font-size: 13px;
+}
+.tab1_sub_headline, .tab1_sub_headline_2{
+	font-family: 'Roboto', sans-serif;
+    color: #000;
+    position: absolute;
+    top: 88px;
+    left: 15px;
+    font-size: 12px;
+    opacity: 0;
+    font-weight: 400;
+    margin-right: 10px;
+    line-height: 17px;
+}
+.video_holder{
+	width: 250px;
+    height: 140px;
+    position: absolute;
+    bottom: 65px;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+video{
+	position: absolute;
+	left: 0; right: 0;
+	width: 100%; height: 100%;
+}
+/*Tab 2 content*/
+
+.tab2_headline{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    position: absolute;
+    top: 62px;
+    left: 15px;
+    opacity: 1;
+    font-size: 13px;
+}
+.tab2_sub_headline{
+	font-family: 'Roboto', sans-serif;
+    color: #000;
+    position: absolute;
+    top: 88px;
+    left: 15px;
+    font-size: 12px;
+    opacity: 1;
+    font-weight: 400;
+    margin-right: 10px;
+    line-height: 17px;
+}
+.tab2_ul{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    position: absolute;
+    top: 130px;
+    left: -5px;
+    font-size: 12px;
+    opacity: 1;
+    font-weight: 400;
+    margin-right: 10px;
+    line-height: 17px;
+}
+.tab2_quote{
+	background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    position: absolute;
+    left: -5px;
+    font-size: 12px;
+    opacity: 1;
+    font-weight: 400;
+    line-height: 17px;
+    text-align: center;
+    padding: 38px 15px 38px 15px;
+    bottom: 72px;
+    font-style: italic;
+}
+.tab3_headline{
+	font-family: 'Roboto', sans-serif;
+    color: #000;
+    position: absolute;
+    top: 62px;
+    left: 15px;
+    opacity: 1;
+    font-size: 13px;
+}
+.tab3_sub_headline{
+	font-family: 'Roboto', sans-serif;
+    color: #000;
+    position: absolute;
+    top: 88px;
+    left: 15px;
+    font-size: 12px;
+    opacity: 1;
+    font-weight: 400;
+    margin-right: 10px;
+    line-height: 17px;
+}
+.end_cta, .end_cta_tab2{
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    padding: 7px 30px 7px 30px;
+    background: #ffd400;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    width: 92px;
+    bottom: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 1;
+    display: block;
+    font-size: 14px;
+}
+.tab3_sub_headline_2{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    position: absolute;
+    top: 195px;
+    left: 15px;
+    font-size: 13px;
+    opacity: 1;
+    font-weight: 600;
+    margin-right: 10px;
+    line-height: 17px;
+}
+.tab3_sub_headline_2_sub{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    position: absolute;
+    top: 215px;
+    left: 15px;
+    font-size: 11px;
+    opacity: 1;
+    font-weight: 400;
+    margin-right: 10px;
+    line-height: 17px;	
+}
+.line{
+	width: 50px;
+	height: 3px;
+	position: absolute;
+	background-color: #000;
+    top: 200px; left: 15px;
+}
+.tab3_sub_headline_3{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    position: absolute;
+    top: 310px;
+    left: 15px;
+    font-size: 13px;
+    opacity: 1;
+    font-weight: 600;
+    margin-right: 10px;
+    line-height: 17px;
+}
+.tab3_sub_headline_3_sub{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    position: absolute;
+    top: 332px;
+    left: 15px;
+    font-size: 11px;
+    opacity: 1;
+    font-weight: 400;
+    margin-right: 10px;
+    line-height: 17px;	
+}
+.line2{
+	width: 50px;
+	height: 3px;
+	position: absolute;
+	background-color: #000;
+    top: 314px; left: 15px;
+}
+.tab3_sub_headline_4{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    position: absolute;
+    top: 427px;
+    left: 15px;
+    font-size: 13px;
+    opacity: 1;
+    font-weight: 600;
+    margin-right: 10px;
+    line-height: 17px;
+}
+.tab3_sub_headline_4_sub{
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    position: absolute;
+    top: 450px;
+    left: 15px;
+    font-size: 11px;
+    opacity: 1;
+    font-weight: 400;
+    margin-right: 10px;
+    line-height: 17px;	
+}
+.line3{
+	width: 50px;
+	height: 3px;
+	position: absolute;
+	background-color: #000;
+    top: 430px; left: 15px;
+}
+#clickthru0,#clickthru1,#clickthru2,#clickthru3,#clickthru4{
+	position: absolute;
+	left: 0; right: 0;
+	width: 300px; height: 600px;
+	cursor: pointer;
+}
