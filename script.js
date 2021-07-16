@@ -90,27 +90,27 @@ function registerClicks(){
         gsap.to(".top_text", {y: -36, x:138});
     });
     $('#clickthru0').click(function(){
-        Enabler.exit('Background Click');
+        Enabler.exit('Background Click', 'https://am.vontobel.com/en/active-investing');
     });
     $('#clickthru1').click(function(){
-        Enabler.exit('Background Click');
+        Enabler.exit('Background Click', 'https://am.vontobel.com/en/active-investing');
     });
     $('#clickthru2').click(function(){
-        Enabler.exit('Background Click');
+        Enabler.exit('Background Click', 'https://am.vontobel.com/en/active-investing');
     });
     $('#clickthru3').click(function(){
-        Enabler.exit('Background Click');
+        Enabler.exit('Background Click', 'https://am.vontobel.com/en/active-investing');
     });
     $('#clickthru4').click(function(){
-        Enabler.exit('Background Click');
+        Enabler.exit('Background Click', 'https://am.vontobel.com/en/active-investing');
     });
 
     $('.end_cta').click(function(){
-        Enabler.exit('CTA Click');
+        Enabler.exit('CTA Click', 'https://am.vontobel.com/en/active-investing');
     });
 
     $('.end_cta_tab2').click(function(){
-        Enabler.exit('CTA Click');
+        Enabler.exit('CTA Click', 'https://am.vontobel.com/en/active-investing');
     });
 
     $('.intro_cta').click(function(){
